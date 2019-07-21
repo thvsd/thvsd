@@ -12,4 +12,4 @@ var r=require("mithril");module.exports=function(){return{view:function(){return
 },{"mithril":"2tzG"}],"QdeU":[function(require,module,exports) {
 var e=require("mithril"),r=document.body;e.route(r,"/",{"/":require("./type-area"),"/about":require("./about")});
 },{"mithril":"2tzG","./type-area":"BErZ","./about":"H3RA"}]},{},["QdeU"], null)
-//# sourceMappingURL=thvsd/app.760489fe.js.map
+//# sourceMappingURL=/thvsd/app.760489fe.js.map
