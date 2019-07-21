@@ -1,0 +1,30 @@
+{
+  "name": "thvsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "rimraf dist public && parcel build src/index.html --out-dir public",
+    "clear": "rimraf dist public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thvsd/thvsd.git"
+  },
+  "author": "Mohamad Fadavi <fadavi@fadavi.net> (https://fadavi.net)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/thvsd/thvsd/issues"
+  },
+  "homepage": "https://github.com/thvsd/thvsd#readme",
+  "dependencies": {
+    "convert-layout": "^0.8.0",
+    "m": "^1.5.4"
+  },
+  "devDependencies": {
+    "mithril": "^1.1.6",
+    "parcel-bundler": "^1.12.3",
+    "rimraf": "^2.6.3"
+  }
+}
